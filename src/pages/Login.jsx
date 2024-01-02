@@ -18,6 +18,11 @@ function Login() {
     <LoginLayout>
       <Logo />
       <Heading as="h4">Log in to your Account</Heading>
+      <Heading as="message">
+        If you need a login credentials, please contact me -{" "}
+        <a href="mailto:dpdarius1@gmail.com">dpdarius1@gmail.com</a>
+      </Heading>
+
       <LoginForm />
     </LoginLayout>
   );

@@ -29,6 +29,17 @@ const Heading = styled.h1`
       font-weight: 600;
       text-align: center;
     `} 
+    ${(props) =>
+    props.as === "message" &&
+    css`
+      font-size: 1.2rem;
+      font-weight: 300;
+      text-align: center;
+
+      & a:hover {
+        text-decoration: underline;
+      }
+    `}
 
 
 
